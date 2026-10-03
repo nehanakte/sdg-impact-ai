@@ -1,0 +1,121 @@
+[
+  {
+    "sdg_id": 1,
+    "title": "No Poverty",
+    "description": "End poverty in all its forms everywhere. Includes eradicating extreme poverty, implementing social protection systems, ensuring equal rights to economic resources, and building resilience of the poor against climate disasters.",
+    "keywords": ["poverty", "income", "social protection", "microfinance", "financial inclusion", "safety net", "poor households", "cash transfer"],
+    "indicators": ["Population below international poverty line", "Social protection coverage", "Pro-poor public spending"]
+  },
+  {
+    "sdg_id": 2,
+    "title": "Zero Hunger",
+    "description": "End hunger, achieve food security and improved nutrition, and promote sustainable agriculture. Covers ending malnutrition, doubling agricultural productivity, sustainable food production, and seed banks.",
+    "keywords": ["hunger", "food security", "nutrition", "agriculture", "farming", "malnutrition", "crop yield", "sustainable farming"],
+    "indicators": ["Prevalence of undernourishment", "Crop yield per hectare", "Food loss index"]
+  },
+  {
+    "sdg_id": 3,
+    "title": "Good Health and Well-Being",
+    "description": "Ensure healthy lives and promote well-being for all at all ages. Covers reducing maternal and child mortality, fighting communicable diseases, mental health, and access to essential medicines.",
+    "keywords": ["health", "wellness", "medicine", "vaccine", "mortality", "mental health", "hospital", "healthcare", "disease"],
+    "indicators": ["Maternal mortality ratio", "Under-5 mortality rate", "Universal health coverage index"]
+  },
+  {
+    "sdg_id": 4,
+    "title": "Quality Education",
+    "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. Covers free primary education, early childhood development, technical skills, and literacy.",
+    "keywords": ["education", "school", "learning", "literacy", "teacher", "student", "curriculum", "training", "classroom", "literacy rate"],
+    "indicators": ["Literacy rate", "School completion rate", "Pupil-teacher ratio"]
+  },
+  {
+    "sdg_id": 5,
+    "title": "Gender Equality",
+    "description": "Achieve gender equality and empower all women and girls. Includes ending discrimination, violence against women, equal participation in leadership, and reproductive rights.",
+    "keywords": ["gender", "women", "girls", "empowerment", "equality", "discrimination", "violence", "leadership", "female participation"],
+    "indicators": ["Women in parliament", "Gender pay gap", "Female labor force participation"]
+  },
+  {
+    "sdg_id": 6,
+    "title": "Clean Water and Sanitation",
+    "description": "Ensure availability and sustainable management of water and sanitation for all. Covers safe drinking water, adequate sanitation, wastewater treatment, and water-use efficiency.",
+    "keywords": ["water", "sanitation", "hygiene", "toilet", "drinking water", "wastewater", "irrigation", "water quality", "sewage"],
+    "indicators": ["Access to safe drinking water", "Open defecation rate", "Wastewater treatment coverage"]
+  },
+  {
+    "sdg_id": 7,
+    "title": "Affordable and Clean Energy",
+    "description": "Ensure access to affordable, reliable, sustainable, and modern energy for all. Covers electricity access, renewable energy share, and energy efficiency improvements.",
+    "keywords": ["energy", "electricity", "renewable", "solar", "wind", "clean energy", "power", "efficiency", "grid"],
+    "indicators": ["Access to electricity", "Renewable energy share", "Energy intensity"]
+  },
+  {
+    "sdg_id": 8,
+    "title": "Decent Work and Economic Growth",
+    "description": "Promote sustained, inclusive and sustainable economic growth, full and productive employment, and decent work for all. Covers job creation, labor rights, and youth employment.",
+    "keywords": ["employment", "jobs", "economy", "growth", "work", "labor", "wages", "entrepreneurship", "SME", "decent work"],
+    "indicators": ["GDP growth rate", "Youth unemployment", "Labor rights compliance"]
+  },
+  {
+    "sdg_id": 9,
+    "title": "Industry, Innovation and Infrastructure",
+    "description": "Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation. Covers transport, R&D, technology, and internet access.",
+    "keywords": ["infrastructure", "innovation", "industry", "research", "technology", "R&D", "internet", "broadband", "manufacturing"],
+    "indicators": ["R&D expenditure", "Internet penetration", "Manufacturing value added"]
+  },
+  {
+    "sdg_id": 10,
+    "title": "Reduced Inequalities",
+    "description": "Reduce inequality within and among countries. Covers income growth of bottom 40%, social/economic/political inclusion, and migration policies.",
+    "keywords": ["inequality", "inclusion", "discrimination", "migration", "income gap", "equal opportunity", "marginalized"],
+    "indicators": ["Gini coefficient", "Bottom 40% income growth", "Wage share of GDP"]
+  },
+  {
+    "sdg_id": 11,
+    "title": "Sustainable Cities and Communities",
+    "description": "Make cities and human settlements inclusive, safe, resilient, and sustainable. Covers housing, transport, urbanization, cultural heritage, and disaster resilience.",
+    "keywords": ["cities", "urban", "housing", "transport", "smart city", "community", "public transport", "urbanization", "slums"],
+    "indicators": ["Slum population", "Public transport access", "PM2.5 air quality"]
+  },
+  {
+    "sdg_id": 12,
+    "title": "Responsible Consumption and Production",
+    "description": "Ensure sustainable consumption and production patterns. Covers resource efficiency, waste reduction, recycling, and sustainable corporate practices.",
+    "keywords": ["recycling", "waste", "consumption", "production", "circular economy", "sustainability", "supply chain", "eco-friendly"],
+    "indicators": ["Recycling rate", "Material footprint", "Food waste per capita"]
+  },
+  {
+    "sdg_id": 13,
+    "title": "Climate Action",
+    "description": "Take urgent action to combat climate change and its impacts. Covers climate resilience, adaptation, mitigation, and climate education.",
+    "keywords": ["climate", "carbon", "emissions", "global warming", "greenhouse gas", "CO2", "adaptation", "mitigation", "carbon footprint"],
+    "indicators": ["CO2 emissions per capita", "Climate finance", "Renewable capacity installed"]
+  },
+  {
+    "sdg_id": 14,
+    "title": "Life Below Water",
+    "description": "Conserve and sustainably use the oceans, seas, and marine resources. Covers marine pollution, overfishing, ocean acidification, and marine protected areas.",
+    "keywords": ["ocean", "marine", "fish", "sea", "coastal", "coral", "plastic pollution", "overfishing", "aquatic"],
+    "indicators": ["Marine protected area coverage", "Fish stock sustainability", "Ocean plastic concentration"]
+  },
+  {
+    "sdg_id": 15,
+    "title": "Life on Land",
+    "description": "Protect, restore, and promote sustainable use of terrestrial ecosystems. Covers forests, biodiversity, land degradation, and wildlife conservation.",
+    "keywords": ["forest", "biodiversity", "wildlife", "land", "deforestation", "ecosystem", "species", "conservation", "trees"],
+    "indicators": ["Forest area coverage", "Red List Index", "Land degradation rate"]
+  },
+  {
+    "sdg_id": 16,
+    "title": "Peace, Justice and Strong Institutions",
+    "description": "Promote peaceful and inclusive societies, provide access to justice, and build effective, accountable institutions. Covers violence, corruption, rule of law.",
+    "keywords": ["peace", "justice", "law", "corruption", "violence", "governance", "institutions", "transparency", "human rights"],
+    "indicators": ["Homicide rate", "Corruption Perception Index", "Rule of law index"]
+  },
+  {
+    "sdg_id": 17,
+    "title": "Partnerships for the Goals",
+    "description": "Strengthen the means of implementation and revitalize global partnerships for sustainable development. Covers finance, technology, trade, capacity building.",
+    "keywords": ["partnership", "collaboration", "global", "development aid", "trade", "capacity building", "technology transfer", "cooperation"],
+    "indicators": ["ODA as % of GNI", "Internet in LDCs", "Debt sustainability"]
+  }
+]
