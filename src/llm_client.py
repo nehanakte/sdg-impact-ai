@@ -22,6 +22,13 @@ GEMINI_CANDIDATES = [
     "gemini-1.5-flash",
 ]
 
+def _gemini_generate(prompt: str) -> str:
+    """Try each candidate Gemini model until one works."""
+    import google.generativeai as genai
+    print(f"[DEBUG] GEMINI_API_KEY length = {len(GEMINI_API_KEY)}", flush=True)
+    print(f"[DEBUG] GEMINI_API_KEY prefix = {GEMINI_API_KEY[:6]}...", flush=True)
+    genai.configure(api_key=GEMINI_API_KEY)
+    # ... rest of the function unchanged
 
 def _gemini_generate(prompt: str) -> str:
     """Try each candidate Gemini model until one works."""
@@ -35,11 +42,12 @@ def _gemini_generate(prompt: str) -> str:
             response = model.generate_content(prompt)
             if response and getattr(response, "text", None):
                 return response.text
+
         except Exception as e:
+            print(f"[DEBUG] {name} failed: {type(e).__name__}: {e}", flush=True)
             last_error = e
-            # short pause to avoid hammering the API on rate limits
             time.sleep(0.5)
-            continue
+            continue    
 
     raise RuntimeError(
         f"All Gemini model attempts failed. Last error: {last_error}\n"
