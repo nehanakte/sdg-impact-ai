@@ -16,7 +16,7 @@ META_PATH = EMBEDDINGS_DIR / "sdg_meta.json"
 
 # Models
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 GROQ_MODEL = "llama-3.1-8b-instant"
 
 # API keys

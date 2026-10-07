@@ -13,11 +13,11 @@ from src.config import GEMINI_API_KEY, GROQ_API_KEY, GEMINI_MODEL, GROQ_MODEL
 
 # Ordered list of Gemini models to try. The first available one wins.
 GEMINI_CANDIDATES = [
-    GEMINI_MODEL,               # from config.py (gemini-2.5-flash)
+    "gemini-3.8-flash",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite",
     "gemini-2.5-flash",
-    "gemini-2.5-pro",
     "gemini-flash-latest",
-    "gemini-2.0-flash",
 ]
 
 
